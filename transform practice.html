@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        font-size: 40px;
+        text-align: center;
+    }
+    .a{
+        width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+    }
+    .a:hover{
+        transform: rotate(20deg);
+        background-position: right;
+        background-color: aqua;
+        transition: ease-in-out;
+    }
+    .b{
+        width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+    }
+    .b:hover{
+        transform: rotate(200deg);
+        background-position: right;
+        background-color: aqua;
+        transition-timing-function: ease;
+        transition: 1s;
+
+    }
+    .c{
+        width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+    }
+    .c:hover{
+        transform: rotate(10deg);
+        background-position: right;
+        background-color: aqua;
+        transition-timing-function: ease;
+        transition: 1s;
+
+    }
+
+ .d{
+    
+    width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+ }
+.d:hover{
+    transform: rotate(45deg);
+    transition: 1s;
+}
+
+.e{
+    width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+}
+.e:hover{
+    transform: rotateX(45deg);
+}
+
+.f{
+    width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+}
+.f:hover{
+    transform: rotateX(200deg);
+    background-color: pink;
+    
+}
+
+.g{
+    width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+}
+.g:hover{
+    transform: rotateY(200deg);
+    transition: 1s ;
+    background-color: chocolate;
+
+}
+.h{
+    width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+}
+.h:hover{
+    transform: rotateY(45deg);
+}
+.i{
+    width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+}
+.i:hover{
+    transform: skew(20deg,20deg);
+}
+.j{
+    width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+}
+.j:hover{
+    transform: skew(30deg,30deg);
+}
+
+.k{
+    width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+}
+.k:hover{
+    
+transform: skewX(30deg);
+}
+
+.l{
+    width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+}
+.l:hover{
+    transform: skewX(40deg);
+}
+.m{
+    width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+}
+.m:hover{
+    transform: skewY(30deg);
+}
+.n{
+    width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+}
+.n:hover{
+    transform: skewY(40deg);
+}
+.o{
+    width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+}
+
+.o:hover{
+    transform: translate(200px,10px);
+}
+
+.oo{
+    width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+}
+
+.oo:hover{
+    transform: translateY(-100px);
+    transition: 0s ;
+}
+
+.ooo{
+    width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+}
+
+.ooo:hover{
+    transform: translateX(-100px);
+}
+.oooo{
+    width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+}
+
+.oooo:hover{
+    transform: translateX(100px);
+}
+.ooooo{
+    width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+}
+
+.ooooo:hover{
+    transform: translateY(100px);
+}
+
+.p{
+    width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+}
+.p:hover{
+    transform: scale(1,2);
+    background-image: url(back10.jpg);
+}
+
+.q{
+    width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+}
+.q:hover{
+transform: translate(400px,200px);
+}
+
+.r{
+    width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+}
+.r:hover{
+    transform: scale(2,2);
+}
+.s{
+    width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+}
+.s:hover{
+    transform: scale(3);
+}
+.t{
+    width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: rgb(84, 19, 144);
+}
+.t:hover{
+    transform: matrix(0.866,0.7,-0.8,0.866,0,0);
+    background-color: rgb(84, 19, 144);
+}
+.u{
+    width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+}
+.u:hover{
+
+transform: matrix(0.586,0.8,-0.8,0.586,0,0);
+}
+.v{
+    width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+}
+.v:hover{
+    transform: matrix(0.586,0.8,-0.8,0.586,40,30);
+    background-color: rgb(218, 55, 82);
+}
+.w{
+    width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        color: blueviolet;
+}
+.w:hover{
+    animation-name: bounce;
+    animation-duration: 5s;
+
+}
+@keyframes bounce{
+    from{margin-bottom:0px; }
+
+    to{ margin-bottom: -500px;}
+
+}
+.jump-hover-effect {
+  transition: transform 0.2s ease-in-out;
+}
+
+.jump-hover-effect:hover {
+  transform: translateY(-10px);
+}
+
+
+</style>
+<body>
+    <div class="a">a</div><br><br>
+    
+    
+    
+    <div class="b">b</div><br><br>
+   
+   
+   
+    <div class="c">c</div><br><br>
+  
+   
+   
+    <div class="d">d</div><br><br>
+     <div class="e">e</div><br><br>
+     <div class="f">f</div><br><br> 
+     <div class="g">g</div><br><br>
+     <div class="h">h</div><br><br>
+     <div class="i">i</div><br><br>
+     <div class="j">j</div><br><br>
+     <div class="k">k</div><br><br>
+     <div class="l">l</div><br><br>
+     <div class="m">m</div><br><br>
+     <div class="n">n</div><br><br>
+     <div class="o">o</div><br><br>
+     <div class="oo">oo</div><br><br>
+     <div class="ooo">ooo</div><br><br>
+     <div class="oooo">oooo</div><br><br>
+     <div class="ooooo">ooooo</div><br><br>
+
+
+
+
+
+
+
+
+
+     <div class="p">p</div><br><br>
+     <div class="q">q</div><br><br>
+     <div class="r">r</div><br><br>
+     <div class="s">s</div><br><br>
+     <div class="t">t</div><br><br>
+     <div class="u">u</div><br><br>
+     <div class="v">v</div><br><br><br><br>
+
+
+     <div class="w"><p>hello</p></div>
+    
+     <div class="jump-hover-effect">Hover over me!</div>
+s
+</body>
+</html>

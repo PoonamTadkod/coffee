@@ -1,0 +1,25 @@
+h1{
+    font-size: 70px;
+
+    text-shadow: 20px 10px 5px red;  /* use for text shadow*/
+}
+
+/* p{
+    line-height: 3.5;
+    letter-spacing: 30px;
+    word-spacing: 30px;
+    
+} */
+
+
+
+
+div{
+    width: 400px;
+
+    height: 400px;
+    border:2px solid blue;
+    overflow: auto;
+    /* overflow-x: scroll;
+    overflow-y: scroll; */
+}

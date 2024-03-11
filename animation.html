@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        background-color: red;
+        width: 100px;
+        height: 50px;
+        transition: width 2s ease-out;
+        transition-delay :1s;
+        animation-name: poonam;
+        animation-duration: 5s;
+        animation-direction: reverse;
+        animation-delay: 1s;
+        animation-iteration-count: 4;
+    }
+
+    @keyframes poonam{
+        0%{
+            background-color: blueviolet;
+        }
+        25%{
+            background-color: rgb(43, 162, 226);
+        }
+        50%{
+            background-color: rgb(43, 226, 83);
+        }
+        75%{
+            background-color: rgb(255, 255, 0);
+        }
+        100%{
+            background-color: red
+        }
+    }
+    div:hover{
+        width: 700px;
+        height: 60px;
+    }
+
+
+
+    
+</style>
+<body>
+    <div>
+        poonam
+    </div>
+    
+</body>
+</html>

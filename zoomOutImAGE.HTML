@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zoom Out Hover Effect</title>
+<style>
+  /* Container to center the image - optional */
+  .image-container {
+    width: 300px;
+			height: 300px;
+			overflow: hidden;
+			margin: 0 auto;
+  }
+
+  /* Initial image styling */
+  .zoom-out-image {
+    width: 300px; /* Set initial width */
+    transition: all 0.9s ease-in-out; /* Smooth transition for zoom effect */
+  }
+
+  /* Zoom out effect on hover */
+  .zoom-out-image:hover {
+    transform: scale(1.5); /* Decrease size to 80% of original */
+  }
+</style>
+</head>
+<body>
+
+<div class="image-container">
+  <img src="ice cream 2.jpg" alt="Zoom Out" class="zoom-out-image">
+</div>
+
+</body>
+</html>

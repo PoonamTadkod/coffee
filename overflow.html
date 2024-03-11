@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     /* overscroll-behavior-inline: contain; */
+     /* overscroll-behavior-block: contain;    */
+      div.ex1 {
+      background-color: lightblue;
+      width: 110px;
+      height: 110px;
+      overflow: scroll;
+
+    }
+    
+    div.ex2 {
+      background-color: lightblue;
+      width: 110px;
+      height: 110px;
+      overflow: hidden;
+    }
+    
+    div.ex3 {
+      background-color: lightblue;
+      width: 110px;
+      height: 110px;
+      overflow: auto;
+    }
+    
+    div.ex4 {
+      background-color: lightblue;
+      width: 110px;
+      height: 110px;
+      overflow: clip;
+    }
+    
+    div.ex5 {
+      background-color: lightblue;
+      width: 110px;
+      height: 110px;
+      overflow: visible;
+    }
+    .a{
+        background-color: rgb(12, 125, 162);
+      width: 410px;
+      height: 110px;
+      margin: 5px 15px;
+      margin-top: 300px;
+  padding: 3px;
+  border: solid black 1px;
+  overflow: auto;
+           overscroll-behavior-inline: contain;
+
+    }
+    .b{
+        background-color: rgb(12, 125, 162);
+      width: 410px;
+      height: 110px;
+      margin: 5px 15px;
+      margin-top: 300px;
+  padding: 3px;
+  border: solid black 1px;
+  overflow: auto;
+           overscroll-behavior-block:contain;
+
+    }
+    </style>
+    
+<body>
+    <h1>The overflow Property</h1>
+
+<p>The overflow property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.</p>
+
+<h2>overflow: scroll:</h2>
+<div class="ex1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    Lorem ipsum dolor sit amet consectetur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, assumenda?
+</div>
+
+<h2>overflow: hidden:</h2>
+<div class="ex2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, unde.
+</div>
+
+<h2>overflow: auto:</h2>
+<div class="ex3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, unde.
+
+</div>
+
+<h2>overflow: clip:</h2>
+<div class="ex4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, unde.
+
+</div>
+
+<h2>overflow: visible (default):</h2>
+<div class="ex5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, unde.
+
+</div>
+<br><br><br>
+
+<div class="a">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ab aut praesentium exercitationem, laborum debitis voluptatibus nulla soluta assumenda nesciunt odit voluptas minima deleniti! Numquam suscipit possimus, non blanditiis vel enim assumenda quam laudantium porro deserunt dolorem quo. Optio ea, dolore itaque eveniet laboriosam dignissimos? Dolor reprehenderit iste ullam. Maiores, aliquam enim incidunt dolorem iure quas reiciendis ullam natus nostrum totam in quisquam, autem hic neque aspernatur quibusdam. Hic laborum assumenda autem repellendus distinctio labore illum ipsa corporis possimus. Veritatis, consequuntur blanditiis eos debitis maxime odit omnis eligendi non, modi eaque provident dolores, accusamus dignissimos libero aliquam officiis quo quasi?
+</div>
+<div class="b">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ab aut praesentium exercitationem, laborum debitis voluptatibus nulla soluta assumenda nesciunt odit voluptas minima deleniti! Numquam suscipit possimus, non blanditiis vel enim assumenda quam laudantium porro deserunt dolorem quo. Optio ea, dolore itaque eveniet laboriosam dignissimos? Dolor reprehenderit iste ullam. Maiores, aliquam enim incidunt dolorem iure quas reiciendis ullam natus nostrum totam in quisquam, autem hic neque aspernatur quibusdam. Hic laborum assumenda autem repellendus distinctio labore illum ipsa corporis possimus. Veritatis, consequuntur blanditiis eos debitis maxime odit omnis eligendi non, modi eaque provident dolores, accusamus dignissimos libero aliquam officiis quo quasi?
+</div>
+
+</body>
+</html>

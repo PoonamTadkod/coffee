@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0" />
+	<title>
+		To Zoom an Image on
+		Mouse Hover using CSS?
+	</title>
+
+	<style>
+		.geeks {
+			width: 300px;
+			height: 300px;
+			overflow: hidden;
+			margin: 0 auto;
+		}
+
+		.geeks img {
+			width: 100%;
+            transition: all 0.5s ease-in-out;
+		}
+
+		.geeks:hover img {
+			transform: scale(1.5);
+
+		}
+	</style>
+</head>
+
+<body><br><br>
+	<div class="geeks">
+		<img src="cream back.jpg"
+			alt="Geeks Image" />
+	</div>
+</body>
+
+</html>
